@@ -1,0 +1,55 @@
+{
+  "name": "ngx-text-diff",
+  "version": "1",
+  "description": "A Text Diff component for Angular.",
+  "keywords": [
+    "Angular",
+    "Library",
+    "Google",
+    "Diff"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Alfredo Benassi",
+    "email": "alfrebenassi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ABenassi87/ngx-text-diff.git"
+  },
+  "homepage": "https://ngx-text-diff.herokuapp.com/home",
+  "dependencies": {
+    "diff-match-patch": "^1.0.5",
+    "tslib": "^2.3.1"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=12",
+    "@angular/core": "^>=12",
+    "@angular/forms": "^>=12",
+    "@angular/cdk": "^>=12",
+    "rxjs": "~6.3.3"
+  },
+  "module": "fesm2015/ngx-text-diff.mjs",
+  "es2020": "fesm2020/ngx-text-diff.mjs",
+  "esm2020": "esm2020/ngx-text-diff.mjs",
+  "fesm2020": "fesm2020/ngx-text-diff.mjs",
+  "fesm2015": "fesm2015/ngx-text-diff.mjs",
+  "typings": "ngx-text-diff.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ngx-text-diff.d.ts",
+      "esm2020": "./esm2020/ngx-text-diff.mjs",
+      "es2020": "./fesm2020/ngx-text-diff.mjs",
+      "es2015": "./fesm2015/ngx-text-diff.mjs",
+      "node": "./fesm2015/ngx-text-diff.mjs",
+      "default": "./fesm2020/ngx-text-diff.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}

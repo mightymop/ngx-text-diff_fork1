@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-text-diff
+ */
+export * from './lib/ngx-text-diff.service';
+export * from './lib/ngx-text-diff.component';
+export * from './lib/ngx-text-diff.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC10ZXh0LWRpZmYvc3JjL3B1YmxpY19hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLDZCQUE2QixDQUFDO0FBQzVDLGNBQWMsK0JBQStCLENBQUM7QUFDOUMsY0FBYyw0QkFBNEIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXRleHQtZGlmZlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC10ZXh0LWRpZmYuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtdGV4dC1kaWZmLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtdGV4dC1kaWZmLm1vZHVsZSc7XG4iXX0=
