@@ -27,7 +27,7 @@
     "@angular/core": ">=14",
     "@angular/forms": ">=14",
     "@angular/cdk": ">=14",
-    "rxjs": "~6.3.3"
+    "rxjs": ">=6.3.3"
   },
   "module": "fesm2015/ngx-text-diff.mjs",
   "es2020": "fesm2020/ngx-text-diff.mjs",
